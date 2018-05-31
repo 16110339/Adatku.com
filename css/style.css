@@ -58,7 +58,7 @@ h5,
 h6 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: normal;
-	color: #313131;
+	color: #222222;
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 400;
@@ -149,7 +149,7 @@ label {
 
 /* header */
 .header-area {
-  min-height: 100px;
+  min-height: 80px;
   background-color: #ddd;
 }
 .main-menu ul{}
@@ -178,6 +178,7 @@ label {
   visibility: hidden;
   width: 220px;
   margin-left: 2px;
+  z-index: 3;
 }
 .main-menu ul li:hover > ul.submenu{
 	opacity:1;
@@ -211,6 +212,7 @@ label {
   transition: all 0.3s ease 0s;
   visibility: hidden;
   width: 700px;
+  z-index: 2;
 }
 .main-menu ul li:hover .mega-menu
 {
@@ -279,6 +281,7 @@ label {
   opacity: 0;
   visibility: hidden;
   transition: 1s;
+  z-index: 4;
 }
 .header-right li:hover ul.minicart{
   opacity: 1;
@@ -350,6 +353,7 @@ ul.minicart .cart-content a{
   transition: all 1s ease 0s;
   visibility: hidden;
   opacity: 0;
+  z-index: 5;
 }
 .header-right ul li:hover .search-form{
   opacity: 1;
@@ -380,4 +384,47 @@ ul.minicart .cart-content a{
 ::-webkit-input-placeholder {
   color: #fff;
   opacity: 1;
+}
+.single-slider{
+  height: 630px;
+  display: flex;
+  align-items: center;
+}
+.slider-text{padding-left: 115px}
+.slider-text h2{
+  font-size: 46px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+}
+.slider-text h2 span{font-weight: 600}
+.slider-text p{
+  margin: 20px 0 60px 0;
+  font-size: 20px;
+}
+.slider-text > a{
+  color: #fff;
+  border-bottom: 1px solid #222;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.slider-active .owl-nav{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.slider-active .owl-nav .owl-prev {
+  margin-right: 80px;
+}
+.owl-nav::before{
+  position: absolute;
+  height: 20px;
+  width: 1px;
+  background: #fff;
+  content: "";
+  right: 68px;
+  bottom: 0;
 }
