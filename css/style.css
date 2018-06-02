@@ -530,4 +530,55 @@ ul.minicart .cart-content a{
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
+  position: relative;
+}
+.product-tab ul li a.active::before{
+  background: #222 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  position: absolute;
+  width: 100%;
+}
+.banner-img img{
+  width: 100%;
+}
+.nav-style{
+
+}
+.nav-style .owl-nav{
+  bottom: 30px;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  top: -38px;
+}
+.nav-style .owl-nav .owl-prev {
+  margin-right: 60px;
+}
+
+.subcribe-wrapper > h2{
+  color: #222222;
+  font-family:'oswald';
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.subcribe-wrapper > p{
+  color: #888888;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+.subcribe-wrapper.text-center input{
+  border: 1px solid #dddddd;
+  float: left;
+  height: 45px;
+  width: 75%;
+}
+.subcribe-wrapper button{
+  background: #222222 none repeat scroll 0 0;
+  border: 0 none;
+  color: #fff;
+  padding: 10px 25px;
+  text-transform: uppercase;
 }
