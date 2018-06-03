@@ -547,15 +547,14 @@ ul.minicart .cart-content a{
 
 }
 .nav-style .owl-nav{
-  bottom: 30px;
+  top: -35px;
   font-size: 12px;
   position: absolute;
   right: 0;
   text-transform: uppercase;
-  top: -38px;
 }
 .nav-style .owl-nav .owl-prev {
-  margin-right: 60px;
+  margin-right: 80px;
 }
 
 .subcribe-wrapper > h2{
@@ -581,4 +580,58 @@ ul.minicart .cart-content a{
   color: #fff;
   padding: 10px 25px;
   text-transform: uppercase;
+}
+.subcribe-wrapper ::-webkit-input-placeholder {
+  color: #000;
+  padding-left: 15px;
+}
+
+.brand-active.owl-carousel .owl-item img{
+  display: block;
+  width: inherit;
+}
+.brand-active{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 120px;
+}
+.single-brand{
+  text-align: center;
+}
+.single-brand > a{
+  display: inline-block;
+}
+.footer-link a{
+  color: #888888;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 35px;
+}
+.footer-widget > h3{
+  color: #222222;
+  font-size: 16px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-right: 35px;
+}
+.footer-menu li a{
+  color: #888888;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.footer-border{
+  border-top: 1px solid #ddd;
+  padding: 50px 0;
+}
+.footer-icon > span{
+  color: #222222;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.footer-icon.text-right > a{
+  color: #aaaaaa;
+  font-size: 16px;
+  margin-left: 12px;
 }
