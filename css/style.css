@@ -281,7 +281,7 @@ label {
   opacity: 0;
   visibility: hidden;
   transition: 1s;
-  z-index: 4;
+  z-index: 999;
 }
 .header-right li:hover ul.minicart{
   opacity: 1;
@@ -389,6 +389,8 @@ ul.minicart .cart-content a{
   height: 650px;
   display: flex;
   align-items: center;
+  background-size: cover;
+  background-position: center center;
 }
 .slider-text{padding-left: 115px}
 .slider-text h2{
@@ -630,7 +632,7 @@ ul.minicart .cart-content a{
   font-size: 12px;
   text-transform: uppercase;
 }
-.footer-icon.text-right > a{
+.footer-icon > a{
   color: #aaaaaa;
   font-size: 16px;
   margin-left: 12px;
