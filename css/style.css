@@ -637,3 +637,86 @@ ul.minicart .cart-content a{
   font-size: 16px;
   margin-left: 12px;
 }
+
+/* shop */
+.page-title-area.pb-100.pt-100{
+  background-size: cover;
+}
+
+.breadcrumb{
+  list-style: none;
+  background: no-repeat;
+}
+.shop-sidebar h3{
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.pulau li a{
+  color: #666;
+  font-size: 13px;
+  font-weight: 500;
+}
+.pulau li {
+  margin-bottom: 10px;
+}
+.pulau li:last-child{
+  margin-bottom: 20px;
+}
+.provinsi.custom-select{
+  font-size: 12px;
+  color: #666;
+}
+.provinsi.custom-select{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.shop-tab li{margin-right: 10px}
+.shop-tab li a{
+  color: #777;
+  font-size: 20px;
+  padding: 0;
+  border: 1px solid #ddd;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.shop-tab li a.active{color: #000;}
+.shop-list .product-action{
+  display: inline-block;
+  opacity: 1;
+  position: inherit;
+  visibility: visible;
+  width: inherit;
+  background: #fff;
+  padding: 0;
+  margin-left: 30px;
+}
+.shop-list .product-action > a{
+  display: inline-block;
+  padding: 13px 0;
+  text-align: left;
+  margin-right: 20px;
+}
+.shop-list .cart-btn{
+  opacity: 1;
+  visibility: visible;
+  transform: inherit;
+  display: inline-block;
+}
+.shop-list-action{
+  margin-top: 30px;
+}
+.shop-layout-bar .clearfix{
+  overflow: hidden;
+}
+.filter{
+  float: left;
+}
+.shop-tab{
+  float: left;
+}

@@ -69,5 +69,8 @@ $('.brand-active').owlCarousel({
 })
 
 
+$('select').niceSelect();
+
+
 
 })(jQuery);
