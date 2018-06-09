@@ -12,6 +12,7 @@ $('.slider-active').owlCarousel({
     loop:true,
     nav:true,
     navText:['Back','Next'],
+    autoplay: true,
     responsive:{
         0:{
             items:1

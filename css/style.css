@@ -821,3 +821,34 @@ ul.minicart .cart-content a{
   font-weight: 600;
 }
 .product-d-action a:hover{background: #222; color: #fff;}
+
+.product-large-checkout img{
+  width: 400px;
+  height: 450px;
+}
+.close a{
+  color: #ddd;
+}
+.close a:hover{
+  color: #000;
+}
+/* .total {
+  margin-top: 10px;
+  border-top: 1px solid #000;
+} */
+.checkout button {
+    margin: 30px 15px 0;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    color: #000;
+}
+.checkout button:hover {
+  background: #000;
+  color: #fff;
+  transition: 1s;
+}
+.checkout-area h2{
+  font-size: 30px;
+  text-transform: uppercase;
+}
