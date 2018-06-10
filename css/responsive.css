@@ -50,7 +50,35 @@
   .footer-icon{
     margin-top: 20px;
   }
-
+  .product-large-checkout img {
+    width: 230px;
+    height: 260px;
+  }
+  .checkout-content h4 {
+    font-size: 16px;
+}
+.checkout-content .price > span {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Oswald';
+}
+.checkout-content .price > span del {
+    font-size: 12px;
+    font-family: inherit;
+    color: #888888;
+}
+.checkout-content label {
+    color: #7e7e7e;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+}
+.checkout-content .quantity input {
+    width: 40px;
+    border: 1px solid #ddd;
+    height: 22px;
+    padding: 0 4px;
+}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
