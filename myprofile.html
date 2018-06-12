@@ -120,14 +120,14 @@
           <div class="col-xl-5 col-lg-4 col-md-8 d-flex align-items-md-center justify-content-end justify-content-center">
             <div class="header-right text-right">
               <ul>
-                  <li>
-                    <div class="dropdown show">
-                      <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Masuk</a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">Daftar</a>
-                    <a class="dropdown-item" href="#">My Profile</a>
+                <li>
+                  <div class="dropdown show">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Masuk</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Daftar</a>
+                      <a class="dropdown-item" href="#">My Profile</a>
+                    </div>
                   </div>
-                </div>
                 </li>
                 <li><a href="">Pemberitahuan(0)</a></li>
                 <li><a href="">Keranjang(3)</a>
@@ -241,20 +241,52 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-3">
-          <a href=""><img src="" alt="user" style="width: 200px; height: 200px;"></a>
+          <a href=""><img src="img/profile.jpg" alt="user" style="width: 100px; height: 100px;"></a>
           <p>Jhon Austin</p>
-          <a href="">Ubah Profil</a>
-          <div class="profile-sidebar">
+          <div class="ubah"><a href=""><i class="fas fa-edit">Ubah Profil</a></i>
+          </div>
+          <div class="profile-sidebar pt-65">
             <ul class="profile">
               <li><a href="">Akun Saya</a></li>
-              <li><a href="">Alamat</a></li>
-              <li><a href="">Bank</a></li>
-              <li><a href="">Notifikasi</a></li>
-              <li><a href="">Pengiriman Barang</a></li>
+              <li><a href="">Beralih Ke Akun Penjualan</a></li>
             </ul>
           </div>
         </div>
-        
+        <div class="col-xl-8">
+          <div class="type1">
+            <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link  active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+              <form class="" action="index.html" method="post">
+                <div class="input-with-label">
+                  <div class="input-with_label">
+                    <label for="">Email :</label><div class="content-text">
+                    silah***@gmail.com
+                  </div>
+                  </div>
+
+                  </div>
+                  <div class="content-text">
+                    silah***@gmail.com
+                  </div>
+                </div>
+              </form>
+            </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
