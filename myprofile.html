@@ -237,7 +237,7 @@
   </div>
 
 
-  <div class="profile-area pt-100 pb-100">
+  <div class="profile-area pt-100">
     <div class="container">
       <div class="row">
         <div class="col-xl-3">
@@ -254,148 +254,209 @@
         </div>
         <div class="col-xl-8">
           <div class="type1">
-            <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+            <ul class="nav nav-pills nav-justified mb-3 gray-bg" id="pills-tab" role="tablist">
               <li class="nav-item">
-                <a class="nav-link  active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+                <a class="nav-link " id="pills-akunsaya-tab" data-toggle="pill" href="#pills-akunsaya" role="tab" aria-controls="pills-akunsaya" aria-selected="true">Akun Saya</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+                <a class="nav-link active" id="pills-alamat-tab" data-toggle="pill" href="#pills-alamat" role="tab" aria-controls="pills-alamat" aria-selected="false">Alamat</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                <a class="nav-link" id="pills-belanjaan-tab" data-toggle="pill" href="#pills-belanjaan" role="tab" aria-controls="pills-belanjaan" aria-selected="false">Belanjaan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-bank-tab" data-toggle="pill" href="#pills-bank" role="tab" aria-controls="pills-bank" aria-selected="false">Bank</a>
               </li>
             </ul>
-            <div class="tab-content" id="pills-tabContent">
-              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-              <form class="" action="index.html" method="post">
-                <div class="input-with-label">
-                  <div class="input-with_label">
-                    <label for="">Email :</label><div class="content-text">
-                    silah***@gmail.com
-                  </div>
-                  </div>
-
-                  </div>
-                  <div class="content-text">
-                    silah***@gmail.com
+            <div class="tab-content " id="pills-tabContent">
+              <div class="tab-pane fade " id="pills-akunsaya" role="tabpanel" aria-labelledby="pills-akunsaya-tab">
+                <div class="profile mb-100">
+                  <h4>Akun Saya</h4>
+                  <p>Kelola Akun ini untuk melindungi dan menjaga keamanan akun anda</p>
+                </div>
+                <div class="profile-content">
+                  <h6>Email :</h6>
+                  <span>haris.angri***@students.amikom.ac.id<a href="" class="f-right icon"><i class="far fa-edit "></i>ubah</a></span>
+                </div>
+                <div class="profile-content">
+                  <h6>Nomor Telepon :</h6>
+                  <span>08238438****<a href="" class="f-right icon"><i class="far fa-edit "></i>ubah</a></span>
+                </div>
+                <div class="profile-content">
+                  <h6>Nama Toko : </h6>
+                  <input type="text" placeholder="Masukkan Nama toko anda" class="form-control">
+                </div>
+                <div class="profile-content">
+                  <h6>Jenis-Kelamin :</h6>
+                  <input type="radio" name="radio1" value="">Laki-Laki <input type="radio" name="radio1" value="">Perempuan
+                </div>
+                <div class="profile-content">
+                  <h6>Tanggal Lahir:</h6>
+                  <input type="date" name="bday" max="3000-12-31" min="1000-01-01" class="form-control">
+                </div>
+                <div class="content-button">
+                  <button type="button" name="button" class="btn simpan">Simpan</button>
+                </div>
+              </div>
+              <div class="tab-pane fade show active" id="pills-alamat" role="tabpanel" aria-labelledby="pills-alamat-tab">
+                <div class="profile mb-100">
+                  <h4>Alamat Saya</h4>
+                  <p>Masukkan Alamat anda untuk pengiriman barang</p>
+                  <button type="button" name="button" class="btn alamat f-right"><i class="fas fa-plus"></i>Tambah Alamat</button>
+                </div>
+                <div class="profile-content">
+                  <h6>Nama :</h6>
+                  <span>Haris Angriawan<a href="" class="f-right icon"><i class="far fa-edit "></i>ubah</a></span>
+                </div>
+                <div class="profile-content">
+                  <h6>Nomer Telepon :</h6>
+                  <span>(+62)82384383680</span>
+                </div>
+                <div class="profile-content">
+                  <div class="form-group">
+                    <h6>Alamat :</h6>
+                    <textarea name="name" rows="2" cols="80" class="form-control">Jalan Nangka 3, KarangNongko, Maguwoharjo, Depok, Sleman, Yogyakarta</textarea><a href="" class="f-right icon-alamat"><i class="far fa-edit "></i>ubah</a><a href="" class="f-right icon-alamat"><i class="far fa-trash-alt"></i>hapus</a>
                   </div>
                 </div>
-              </form>
-            </div>
-              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+                <div class="profile-content" style="border-bottom: 1px solid #ddd;"></div>
+                <div class="content-button">
+                  <button type="button" name="button" class="btn simpan">Simpan</button>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-belanjaan" role="tabpanel" aria-labelledby="pills-belanjaan-tab">
+                <div class="row">
+                  <div class="col-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Belum Bayar</a>
+                      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Belum Dikirim</a>
+                      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Belum Diterima</a>
+                      <a class="nav-link" id="v-pills-batal-tab" data-toggle="pill" href="#v-pills-batal" role="tab" aria-controls="v-pills-batal" aria-selected="false">Pembatalan</a>
+                      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Selesai</a>
+
+                    </div>
+                  </div>
+                  <div class="col-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-bank" role="tabpanel" aria-labelledby="pills-bank-tab">.1..</div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
 
-  <footer>
-    <div class="footer-area pt-110 pb-80">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
-            <div class="footer-widget">
-              <h3>Bantuan</h3>
-              <ul class="footer-link">
-                <li><a href="">Lihat Toko</a></li>
-                <li><a href="">Kontak Kami</a></li>
-                <li><a href="">Pembayaran</a></li>
-                <li><a href="">Pengriman</a></li>
-                <li><a href="">Cara Pembelian</a></li>
-                <li><a href="">Bantuan/Panduan</a></li>
-                <li><a href="">Layanan Pelanggan</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
-            <div class="footer-widget">
-              <h3>Bantuan</h3>
-              <ul class="footer-link">
-                <li><a href="">Lihat Toko</a></li>
-                <li><a href="">Kontak Kami</a></li>
-                <li><a href="">Pembayaran</a></li>
-                <li><a href="">Pengriman</a></li>
-                <li><a href="">Cara Pembelian</a></li>
-                <li><a href="">Bantuan/Panduan</a></li>
-                <li><a href="">Layanan Pelanggan</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
-            <div class="footer-widget">
-              <h3>Bantuan</h3>
-              <ul class="footer-link">
-                <li><a href="">Lihat Toko</a></li>
-                <li><a href="">Kontak Kami</a></li>
-                <li><a href="">Pembayaran</a></li>
-                <li><a href="">Pengriman</a></li>
-                <li><a href="">Cara Pembelian</a></li>
-                <li><a href="">Bantuan/Panduan</a></li>
-                <li><a href="">Layanan Pelanggan</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
-            <div class="footer-widget">
-              <h3>Bantuan</h3>
-              <ul class="footer-link">
-                <li><a href="">Lihat Toko</a></li>
-                <li><a href="">Kontak Kami</a></li>
-                <li><a href="">Pembayaran</a></li>
-                <li><a href="">Pengriman</a></li>
-                <li><a href="">Cara Pembelian</a></li>
-                <li><a href="">Bantuan/Panduan</a></li>
-                <li><a href="">Layanan Pelanggan</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom-area">
-      <div class="container">
-        <div class="footer-border">
+    <footer>
+      <div class="footer-area pt-110 pb-80">
+        <div class="container">
           <div class="row">
-            <div class="col-xl-6 col-lg-9 col-md-12">
-              <div class="footer-menu">
-                <nav>
-                  <ul>
-                    <li><a href="">Beranda</a></li>
-                    <li><a href="">Produk</a></li>
-                    <li><a href="">Blogs</a></li>
-                    <li><a href="">Tentang Kami</a></li>
-                    <li><a href="">Lihat Pesanan</a></li>
-                    <li><a href="">Kontak Kami</a></li>
-                  </ul>
-                </nav>
+            <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+              <div class="footer-widget">
+                <h3>Bantuan</h3>
+                <ul class="footer-link">
+                  <li><a href="">Lihat Toko</a></li>
+                  <li><a href="">Kontak Kami</a></li>
+                  <li><a href="">Pembayaran</a></li>
+                  <li><a href="">Pengriman</a></li>
+                  <li><a href="">Cara Pembelian</a></li>
+                  <li><a href="">Bantuan/Panduan</a></li>
+                  <li><a href="">Layanan Pelanggan</a></li>
+                </ul>
               </div>
             </div>
-            <div class="col-xl-6 col-lg-2 col-md-12">
-              <div class="footer-icon text-left text-md-center text-lg-right">
-                <span>Kunjungi Kami di    :</span>
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-google-plus-g"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-twitter"></i></a>
+            <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+              <div class="footer-widget">
+                <h3>Bantuan</h3>
+                <ul class="footer-link">
+                  <li><a href="">Lihat Toko</a></li>
+                  <li><a href="">Kontak Kami</a></li>
+                  <li><a href="">Pembayaran</a></li>
+                  <li><a href="">Pengriman</a></li>
+                  <li><a href="">Cara Pembelian</a></li>
+                  <li><a href="">Bantuan/Panduan</a></li>
+                  <li><a href="">Layanan Pelanggan</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+              <div class="footer-widget">
+                <h3>Bantuan</h3>
+                <ul class="footer-link">
+                  <li><a href="">Lihat Toko</a></li>
+                  <li><a href="">Kontak Kami</a></li>
+                  <li><a href="">Pembayaran</a></li>
+                  <li><a href="">Pengriman</a></li>
+                  <li><a href="">Cara Pembelian</a></li>
+                  <li><a href="">Bantuan/Panduan</a></li>
+                  <li><a href="">Layanan Pelanggan</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+              <div class="footer-widget">
+                <h3>Bantuan</h3>
+                <ul class="footer-link">
+                  <li><a href="">Lihat Toko</a></li>
+                  <li><a href="">Kontak Kami</a></li>
+                  <li><a href="">Pembayaran</a></li>
+                  <li><a href="">Pengriman</a></li>
+                  <li><a href="">Cara Pembelian</a></li>
+                  <li><a href="">Bantuan/Panduan</a></li>
+                  <li><a href="">Layanan Pelanggan</a></li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
+      <div class="footer-bottom-area">
+        <div class="container">
+          <div class="footer-border">
+            <div class="row">
+              <div class="col-xl-6 col-lg-9 col-md-12">
+                <div class="footer-menu">
+                  <nav>
+                    <ul>
+                      <li><a href="">Beranda</a></li>
+                      <li><a href="">Produk</a></li>
+                      <li><a href="">Blogs</a></li>
+                      <li><a href="">Tentang Kami</a></li>
+                      <li><a href="">Lihat Pesanan</a></li>
+                      <li><a href="">Kontak Kami</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-2 col-md-12">
+                <div class="footer-icon text-left text-md-center text-lg-right">
+                  <span>Kunjungi Kami di    :</span>
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-google-plus-g"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-  <script src="js/vendor/jquery-3.2.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.meanmenu.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

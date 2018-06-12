@@ -838,10 +838,6 @@ ul.minicart .cart-content a{
 .close a:hover{
   color: #000;
 }
-/* .total {
-  margin-top: 10px;
-  border-top: 1px solid #000;
-} */
 .checkout button {
     margin: 30px 15px 0;
     border: none;
@@ -875,28 +871,61 @@ ul.minicart .cart-content a{
   margin: 0;
   padding-left: 14px;
 }
-.type1 input[type="radio"],
- input[type="text"]{
-  margin-left: 10px;
+.profile p{
+  padding: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.profile-content h6{
+  text-align: right;
+  width: 25%;
+  display: inline-block;
+  padding: 20px 0;
+  font-size: 18px;
+}
+.profile-content span{
+  padding-left: 20px;
+}
+.profile-content input{
+  margin-left:20px;
+}
+.profile-content .icon{
+  font-size: 12px;
+  padding: 24px 0 0 5px;
   color: #000;
 }
-.type1 label{
-  padding: 18px 0;
+.profile-content .icon:hover{
+  color: #ddd;
 }
-.type1 ::-webkit-input-placeholder {
+.content-button{
+  width: 100%;
+  text-align: center;
+  padding: 80px;
+}
+.profile-content .form-control{
+  width: 50%;
+  display: inline-block;
+}
+.content-button .simpan{
+  background: #ddd;
   color: #000;
-  padding-left: 5px;
 }
-.input-with_label{
-  width: 20%;
-text-align: right;
-color: rgba(85,85,85,.8);
-text-transform: capitalize;
-overflow: hidden;
+.content-button .simpan:hover{
+  background: #000;
+  color: #fff;
 }
-.content-text{
-width: 80%;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-padding-left: 2rem;
+.profile-content .form-group {
+    margin-bottom: 1rem;
+    display: flex;
+}
+.profile-content .icon-alamat{
+  font-size: 12px;
+  padding: 15px;
+  color: #000;
+}
+.profile-content .icon-alamat:hover{
+  color: #ddd;
+}
+.profile-content textarea{
+  margin-left: 20px;
 }
