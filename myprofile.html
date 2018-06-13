@@ -259,10 +259,10 @@
                 <a class="nav-link " id="pills-akunsaya-tab" data-toggle="pill" href="#pills-akunsaya" role="tab" aria-controls="pills-akunsaya" aria-selected="true">Akun Saya</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" id="pills-alamat-tab" data-toggle="pill" href="#pills-alamat" role="tab" aria-controls="pills-alamat" aria-selected="false">Alamat</a>
+                <a class="nav-link " id="pills-alamat-tab" data-toggle="pill" href="#pills-alamat" role="tab" aria-controls="pills-alamat" aria-selected="false">Alamat</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="pills-belanjaan-tab" data-toggle="pill" href="#pills-belanjaan" role="tab" aria-controls="pills-belanjaan" aria-selected="false">Belanjaan</a>
+                <a class="nav-link active" id="pills-belanjaan-tab" data-toggle="pill" href="#pills-belanjaan" role="tab" aria-controls="pills-belanjaan" aria-selected="false">Belanjaan</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" id="pills-bank-tab" data-toggle="pill" href="#pills-bank" role="tab" aria-controls="pills-bank" aria-selected="false">Bank</a>
@@ -298,7 +298,7 @@
                   <button type="button" name="button" class="btn simpan">Simpan</button>
                 </div>
               </div>
-              <div class="tab-pane fade show active" id="pills-alamat" role="tabpanel" aria-labelledby="pills-alamat-tab">
+              <div class="tab-pane fade " id="pills-alamat" role="tabpanel" aria-labelledby="pills-alamat-tab">
                 <div class="profile mb-100">
                   <h4>Alamat Saya</h4>
                   <p>Masukkan Alamat anda untuk pengiriman barang</p>
@@ -323,29 +323,143 @@
                   <button type="button" name="button" class="btn simpan">Simpan</button>
                 </div>
               </div>
-              <div class="tab-pane fade" id="pills-belanjaan" role="tabpanel" aria-labelledby="pills-belanjaan-tab">
-                <div class="row">
+              <div class="tab-pane fade show active" id="pills-belanjaan" role="tabpanel" aria-labelledby="pills-belanjaan-tab">
+                <div class="row mt-30">
                   <div class="col-3">
                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Belum Bayar</a>
-                      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Belum Dikirim</a>
-                      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Belum Diterima</a>
-                      <a class="nav-link" id="v-pills-batal-tab" data-toggle="pill" href="#v-pills-batal" role="tab" aria-controls="v-pills-batal" aria-selected="false">Pembatalan</a>
-                      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Selesai</a>
+                      <a class="nav-link  p-3" id="v-pills-belumbayar-tab" data-toggle="pill" href="#v-pills-belumbayar" role="tab" aria-controls="v-pills-belumbayar" aria-selected="true">Belum Bayar</a>
+                      <a class="nav-link p-3" id="v-pills-belumdikirim-tab" data-toggle="pill" href="#v-pills-belumdikirim" role="tab" aria-controls="v-pills-belumdikirim" aria-selected="false">Belum Dikirim</a>
+                      <a class="nav-link p-3" id="v-pills-belumditerima-tab" data-toggle="pill" href="#v-pills-belumditerima" role="tab" aria-controls="v-pills-belumditerima" aria-selected="false">Belum Diterima</a>
+                      <a class="nav-link active p-3" id="v-pills-batal-tab" data-toggle="pill" href="#v-pills-batal" role="tab" aria-controls="v-pills-batal" aria-selected="false">Pembatalan</a>
+                      <a class="nav-link p-3" id="v-pills-selesai-tab" data-toggle="pill" href="#v-pills-selesai" role="tab" aria-controls="v-pills-selesai" aria-selected="false">Selesai</a>
 
                     </div>
                   </div>
                   <div class="col-9">
                     <div class="tab-content" id="v-pills-tabContent">
-                      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-                      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-                      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                      <div class="tab-pane fade " id="v-pills-belumbayar" role="tabpanel" aria-labelledby="v-pills-belumbayar-tab">
+                        <div class="profile-belumbayar text-center">
+                          <i class="fas fa-clipboard icon-belanjaan"></i>
+                          <h6>Belum ada pesanan</h6>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-belumdikirim" role="tabpanel" aria-labelledby="v-pills-belumdikirim-tab">
+                        <div class="profile-belumbayar text-center">
+                          <i class="fas fa-clipboard icon-belanjaan"></i>
+                          <h6>Belum ada pesanan</h6>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-belumditerima" role="tabpanel" aria-labelledby="v-pills-belumditerima-tab">
+                        <div class="profile-belumbayar text-center">
+                          <i class="fas fa-clipboard icon-belanjaan"></i>
+                          <h6>Belum ada pesanan</h6>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade show active" id="v-pills-batal" role="tabpanel" aria-labelledby="v-pills-batal-tab">
+                        <div class="order-content p-3 mb-100 ">
+                          <div class="order-card border p-3">
+                            <img src="img/brand/alatmusik/1.jpg" alt="" style="width:140px; height:150px;">
+                            <div class="order-text text-right">
+                              <h6>Gendang Aceh Daerah Rapai</h6>
+                              <p>1X</p>
+                              <span class="text-right order-price">Rp. 200.000</span>
+                              <p>Dibatalkan</p>
+                            </div>
+                          </div>
+                          <div class="total-price text-right mt-20"><h4><i class="fas fa-money-bill-alt">Total Pesanan: <span>Rp. 200.000</span></h4></i></div>
+                          <div class="order-button btn-group pt-20 f-right role="group" aria-label="Basic example"">
+                            <button type="button" class="btn btn-order mr-2" name="button">Beli Lagi</button>
+                            <button type="button" class="btn btn-order" name="button">Periksa Rincian</button>
+                          </div>
+                        </div>
+                        <div class="order-content p-3 mb-100 ">
+                          <div class="order-card border p-3">
+                            <img src="img/brand/alatmusik/1.jpg" alt="" style="width:140px; height:150px;">
+                            <div class="order-text text-right">
+                              <h6>Gendang Aceh Daerah Rapai</h6>
+                              <p>1X</p>
+                              <span class="text-right order-price">Rp. 200.000</span>
+                              <p>Dibatalkan</p>
+                            </div>
+                          </div>
+                          <div class="total-price text-right mt-20"><h4><i class="fas fa-money-bill-alt">Total Pesanan: <span>Rp. 200.000</span></h4></i></div>
+                          <div class="order-button btn-group pt-20 f-right role="group" aria-label="Basic example"">
+                            <button type="button" class="btn btn-order mr-2" name="button">Beli Lagi</button>
+                            <button type="button" class="btn btn-order" name="button">Periksa Rincian</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-selesai" role="tabpanel" aria-labelledby="v-pills-selesai-tab">
+                        <div class="order-content p-3 mb-100 ">
+                          <div class="order-card border p-3">
+                            <img src="img/brand/alatmusik/1.jpg" alt="" style="width:140px; height:150px;">
+                            <div class="order-text text-right">
+                              <h6>Gendang Aceh Daerah Rapai</h6>
+                              <p>1X</p>
+                              <span class="text-right order-price">Rp. 200.000</span>
+                              <p>Dibatalkan</p>
+                            </div>
+                          </div>
+                          <div class="total-price text-right mt-20"><h4><i class="fas fa-money-bill-alt">Total Pesanan: <span>Rp. 200.000</span></h4></i></div>
+                          <div class="order-button btn-group pt-20 f-right role="group" aria-label="Basic example"">
+                            <button type="button" class="btn btn-order mr-2" name="button">Nilai</button>
+                            <button type="button" class="btn btn-order" name="button">Tampilkan Rincian Pesanan</button>
+                          </div>
+                        </div>
+                        <div class="order-content p-3 mb-100 ">
+                          <div class="order-card border p-3">
+                            <img src="img/brand/alatmusik/1.jpg" alt="" style="width:140px; height:150px;">
+                            <div class="order-text text-right">
+                              <h6>Gendang Aceh Daerah Rapai</h6>
+                              <p>1X</p>
+                              <span class="text-right order-price">Rp. 200.000</span>
+                              <p>Dibatalkan</p>
+                            </div>
+                          </div>
+                          <div class="total-price text-right mt-20"><h4><i class="fas fa-money-bill-alt">Total Pesanan: <span>Rp. 200.000</span></h4></i></div>
+                          <div class="order-button btn-group pt-20 f-right role="group" aria-label="Basic example"">
+                            <button type="button" class="btn btn-order mr-2" name="button">Nilai</button>
+                            <button type="button" class="btn btn-order" name="button">Tampilkan Rincian Pesanan</button>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="tab-pane fade" id="pills-bank" role="tabpanel" aria-labelledby="pills-bank-tab">.1..</div>
+              <div class="tab-pane fade" id="pills-bank" role="tabpanel" aria-labelledby="pills-bank-tab">
+                <div class="profile mb-100">
+                  <h4>Alamat Saya</h4>
+                  <p>Masukkan Alamat anda untuk pengiriman barang</p>
+                  <button type="button" name="button" class="btn alamat f-right"><i class="fas fa-plus"></i>Tambah Alamat</button>
+                </div>
+
+
+                                           
+                <div class="profile mb-100">
+                  <h4>Alamat Saya</h4>
+                  <p>Masukkan Alamat anda untuk pengiriman barang</p>
+                  <button type="button" name="button" class="btn alamat f-right"><i class="fas fa-plus"></i>Tambah Alamat</button>
+                </div>
+                <div class="profile-content">
+                  <h6>Nama :</h6>
+                  <span>Haris Angriawan<a href="" class="f-right icon"><i class="far fa-edit "></i>ubah</a></span>
+                </div>
+                <div class="profile-content">
+                  <h6>Nomer Telepon :</h6>
+                  <span>(+62)82384383680</span>
+                </div>
+                <div class="profile-content">
+                  <div class="form-group">
+                    <h6>Alamat :</h6>
+                    <textarea name="name" rows="2" cols="80" class="form-control">Jalan Nangka 3, KarangNongko, Maguwoharjo, Depok, Sleman, Yogyakarta</textarea><a href="" class="f-right icon-alamat"><i class="far fa-edit "></i>ubah</a><a href="" class="f-right icon-alamat"><i class="far fa-trash-alt"></i>hapus</a>
+                  </div>
+                </div>
+                <div class="profile-content" style="border-bottom: 1px solid #ddd;"></div>
+                <div class="content-button">
+                  <button type="button" name="button" class="btn simpan">Simpan</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>

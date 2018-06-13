@@ -929,3 +929,41 @@ ul.minicart .cart-content a{
 .profile-content textarea{
   margin-left: 20px;
 }
+.profile-belumbayar{
+  padding: 150px;
+}
+.profile-belumbayar .icon-belanjaan{
+  font-size: 70px;
+  margin-bottom:25px;
+  color: #4e4e4e;
+}
+.order-card img{
+  border-radius: 0;
+}
+.order-card {
+  height: 180px;
+  border-bottom: 1px solid #ddd;
+}
+.btn-order{
+  border-radius: 0;
+  margin-left: 15px;
+  background: #ddd;
+  color: #000;
+  transition: 1s;
+}
+.btn-order:hover{
+  background: #000;
+  color: #fff;
+}
+.total-price h4{
+  font-size: 18px;
+  color: #000;
+}
+.total-price span{
+  font-size: 16px;
+  color: #000;
+}
+.icon{
+  font-size: 12px;
+  color: #000;
+}
