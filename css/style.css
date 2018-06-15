@@ -967,3 +967,42 @@ ul.minicart .cart-content a{
   font-size: 12px;
   color: #000;
 }
+.profile-produk-content{
+  border-style: dotted;
+  border-color: #ddd;
+  width: 225px;
+  height: 250px;
+}
+.produkku-icon{
+  font-size: 40px;
+  color: #000;
+}
+.profile-produk-content:hover{
+  border-color: #000;
+}
+.profile-produk-content h4{
+  font-size: 18px;
+}
+#upload_link{
+    text-decoration:none;
+}
+#upload{
+    display:none
+}
+.search-produk input{
+  border-radius: 10px;
+  width: 40%;
+  border: 1px solid #ddd;
+  outline: 0;
+  padding-left: 8px;
+  height: 40px;
+  font-size: 18px;
+}
+#filtersubmit {
+    position: relative;
+    z-index: 888;
+    left: -25px;
+    top: 1px;
+    color: #7B7B7B;
+    cursor:pointer;
+}

@@ -212,7 +212,6 @@
     </div>
   </header>
 
-
   <div class="page-title-area pt-100 pb-100" style="background-image:url(img/slider/7.jpg)">
     <div class="container">
       <div class="row">
@@ -236,7 +235,6 @@
     </div>
   </div>
 
-
   <div class="profile-area pt-100">
     <div class="container">
       <div class="row">
@@ -253,49 +251,37 @@
           </div>
         </div>
         <div class="col-xl-8">
-          <div class="type1">
+          <div class="type2">
             <ul class="nav nav-pills nav-justified mb-3 gray-bg" id="pills-tab" role="tablist">
               <li class="nav-item">
-                <a class="nav-link " id="pills-akunsaya-tab" data-toggle="pill" href="#pills-akunsaya" role="tab" aria-controls="pills-akunsaya" aria-selected="true">Akun Saya</a>
+                <a class="nav-link " id="pills-akunsaya-tab" data-toggle="pill" href="#pills-akunsaya" role="tab" aria-controls="pills-akunsaya" aria-selected="true">Produk Saya</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " id="pills-alamat-tab" data-toggle="pill" href="#pills-alamat" role="tab" aria-controls="pills-alamat" aria-selected="false">Alamat</a>
+                <a class="nav-link " id="pills-alamat-tab" data-toggle="pill" href="#pills-alamat" role="tab" aria-controls="pills-alamat" aria-selected="false">Penjualanku</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" id="pills-belanjaan-tab" data-toggle="pill" href="#pills-belanjaan" role="tab" aria-controls="pills-belanjaan" aria-selected="false">Belanjaan</a>
+                <a class="nav-link active" id="pills-belanjaan-tab" data-toggle="pill" href="#pills-belanjaan" role="tab" aria-controls="pills-belanjaan" aria-selected="false">Penghasilanku</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="pills-bank-tab" data-toggle="pill" href="#pills-bank" role="tab" aria-controls="pills-bank" aria-selected="false">Bank</a>
+                <a class="nav-link" id="pills-bank-tab" data-toggle="pill" href="#pills-bank" role="tab" aria-controls="pills-bank" aria-selected="false">Pengaturan Toko</a>
               </li>
             </ul>
             <div class="tab-content " id="pills-tabContent">
               <div class="tab-pane fade " id="pills-akunsaya" role="tabpanel" aria-labelledby="pills-akunsaya-tab">
-                <div class="profile mb-100">
-                  <h4>Akun Saya</h4>
-                  <p>Kelola Akun ini untuk melindungi dan menjaga keamanan akun anda</p>
+
+                <div class="profile mb-30">
+                  <h4>Produk Saya</h4>
+                  <p>Kelola Produk untuk melakukan penjualan</p>
+                  <div class="search-produk text-right">
+                    <input id="filter" type="text" placeholder="Cari produk anda" />
+                    <i id="filtersubmit" class="fa fa-search"></i>
+                  </div>
                 </div>
-                <div class="profile-content">
-                  <h6>Email :</h6>
-                  <span>haris.angri***@students.amikom.ac.id<a href="" class="f-right icon"><i class="far fa-edit "></i>ubah</a></span>
-                </div>
-                <div class="profile-content">
-                  <h6>Nomor Telepon :</h6>
-                  <span>08238438****<a href="" class="f-right icon"><i class="far fa-edit "></i>ubah</a></span>
-                </div>
-                <div class="profile-content">
-                  <h6>Nama Toko : </h6>
-                  <input type="text" placeholder="Masukkan Nama toko anda" class="form-control">
-                </div>
-                <div class="profile-content">
-                  <h6>Jenis-Kelamin :</h6>
-                  <input type="radio" name="radio1" value="">Laki-Laki <input type="radio" name="radio1" value="">Perempuan
-                </div>
-                <div class="profile-content">
-                  <h6>Tanggal Lahir:</h6>
-                  <input type="date" name="bday" max="3000-12-31" min="1000-01-01" class="form-control">
-                </div>
-                <div class="content-button">
-                  <button type="button" name="button" class="btn simpan">Simpan</button>
+                <div class="profile-produk-content text-center pt-90"><input id="upload" type="file" />
+                  <a href=""><i class="fas fa-plus-square produkku-icon" id="upload_link">
+                    <h4>Tambakan produk</h4>
+                    </i>
+                  </a>
                 </div>
               </div>
               <div class="tab-pane fade " id="pills-alamat" role="tabpanel" aria-labelledby="pills-alamat-tab">
@@ -366,8 +352,10 @@
                               <p>Dibatalkan</p>
                             </div>
                           </div>
-                          <div class="total-price text-right mt-20"><h4><i class="fas fa-money-bill-alt">Total Pesanan: <span>Rp. 200.000</span></h4></i></div>
-                          <div class="order-button btn-group pt-20 f-right role="group" aria-label="Basic example"">
+                          <div class="total-price text-right mt-20">
+                            <h4><i class="fas fa-money-bill-alt">Total Pesanan: <span>Rp. 200.000</span></h4></i>
+                          </div>
+                          <div class="order-button btn-group pt-20 f-right role=" group " aria-label="Basic example "">
                             <button type="button" class="btn btn-order mr-2" name="button">Beli Lagi</button>
                             <button type="button" class="btn btn-order" name="button">Periksa Rincian</button>
                           </div>
@@ -382,8 +370,10 @@
                               <p>Dibatalkan</p>
                             </div>
                           </div>
-                          <div class="total-price text-right mt-20"><h4><i class="fas fa-money-bill-alt">Total Pesanan: <span>Rp. 200.000</span></h4></i></div>
-                          <div class="order-button btn-group pt-20 f-right role="group" aria-label="Basic example"">
+                          <div class="total-price text-right mt-20">
+                            <h4><i class="fas fa-money-bill-alt">Total Pesanan: <span>Rp. 200.000</span></h4></i>
+                          </div>
+                          <div class="order-button btn-group pt-20 f-right role=" group " aria-label="Basic example "">
                             <button type="button" class="btn btn-order mr-2" name="button">Beli Lagi</button>
                             <button type="button" class="btn btn-order" name="button">Periksa Rincian</button>
                           </div>
@@ -400,8 +390,10 @@
                               <p>Dibatalkan</p>
                             </div>
                           </div>
-                          <div class="total-price text-right mt-20"><h4><i class="fas fa-money-bill-alt">Total Pesanan: <span>Rp. 200.000</span></h4></i></div>
-                          <div class="order-button btn-group pt-20 f-right role="group" aria-label="Basic example"">
+                          <div class="total-price text-right mt-20">
+                            <h4><i class="fas fa-money-bill-alt">Total Pesanan: <span>Rp. 200.000</span></h4></i>
+                          </div>
+                          <div class="order-button btn-group pt-20 f-right role=" group " aria-label="Basic example "">
                             <button type="button" class="btn btn-order mr-2" name="button">Nilai</button>
                             <button type="button" class="btn btn-order" name="button">Tampilkan Rincian Pesanan</button>
                           </div>
@@ -416,8 +408,10 @@
                               <p>Dibatalkan</p>
                             </div>
                           </div>
-                          <div class="total-price text-right mt-20"><h4><i class="fas fa-money-bill-alt">Total Pesanan: <span>Rp. 200.000</span></h4></i></div>
-                          <div class="order-button btn-group pt-20 f-right role="group" aria-label="Basic example"">
+                          <div class="total-price text-right mt-20">
+                            <h4><i class="fas fa-money-bill-alt">Total Pesanan: <span>Rp. 200.000</span></h4></i>
+                          </div>
+                          <div class="order-button btn-group pt-20 f-right role=" group " aria-label="Basic example "">
                             <button type="button" class="btn btn-order mr-2" name="button">Nilai</button>
                             <button type="button" class="btn btn-order" name="button">Tampilkan Rincian Pesanan</button>
                           </div>
@@ -451,14 +445,14 @@
                   <span>32840103297****</span>
                 </div>
                 <div class="profile-content">
-                    <h6>Nama Bank:</h6>
-                    <span>BRI</span>
-                    <span class="f-right">Terverifikasi</span>
+                  <h6>Nama Bank:</h6>
+                  <span>BRI</span>
+                  <span class="f-right">Terverifikasi</span>
                 </div>
                 <div class="profile-content">
-                    <h6>Alamat Bank:</h6>
-                    <span>Wilayah: Kota Bengkulu</span>
-                    <span>Cabang: Unit Lingkar Timur</span>
+                  <h6>Alamat Bank:</h6>
+                  <span>Wilayah: Kota Bengkulu</span>
+                  <span>Cabang: Unit Lingkar Timur</span>
                 </div>
                 <div class="profile-content" style="border-bottom: 1px solid #ddd;"></div>
                 <div class="content-button">
