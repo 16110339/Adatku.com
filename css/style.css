@@ -854,6 +854,21 @@ ul.minicart .cart-content a{
   font-size: 30px;
   text-transform: uppercase;
 }
+.profile-sidebar a{
+  color: #000;
+}
+.profile li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+}
+.profile li a:hover{
+    color: #fff;
+}
+.profile li a{
+    padding: 20px;
+}
 .profile-area img{
   float: left;
   border-radius: 50px;
@@ -869,7 +884,6 @@ ul.minicart .cart-content a{
 }
  ul.profile{
   margin: 0;
-  padding-left: 14px;
 }
 .profile p{
   padding: 0;
@@ -983,10 +997,10 @@ ul.minicart .cart-content a{
 .profile-produk-content h4{
   font-size: 18px;
 }
-#upload_link{
+.upload_link{
     text-decoration:none;
 }
-#upload{
+.upload{
     display:none
 }
 .search-produk input{
@@ -998,11 +1012,67 @@ ul.minicart .cart-content a{
   height: 40px;
   font-size: 18px;
 }
-#filtersubmit {
+.filtersubmit {
     position: relative;
     z-index: 888;
     left: -25px;
     top: 1px;
     color: #7B7B7B;
     cursor:pointer;
+}
+.toogle-right{
+  float: right;
+  background-color: #ddd;
+}
+.icon-pengaturan{
+  padding-right:  20px;
+  display: flex;
+  font-size: 22px;
+}
+.icon-pengaturan h4{
+  padding-left: 20px;
+}
+.type1 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #0d0d0e;
+}
+.type1 a{
+    color: #000;
+    outline: medium none;
+}
+.type1 .alamat{
+  background-color: #ddd;
+  color: #000;
+}
+.type1 .alamat:hover{
+  background-color: #000;
+  color: #fff;
+}
+.type2 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #0d0d0e;
+}
+.type2 a{
+    color: #000;
+    outline: medium none;
+}
+.type2 .alamat{
+  background-color: #ddd;
+  color: #000;
+}
+.type2 .alamat:hover{
+  background-color: #000;
+  color: #fff;
+}
+.type2 .btn{
+  background-color: #ddd;
+  color: #000;
+  outline: 0;
+}
+.bantuan{
+  background-color: #000;
+  color: #fff;
+}
+.bantuan:hover{
+  opacity: 0.7;
 }

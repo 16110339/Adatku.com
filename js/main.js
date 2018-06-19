@@ -72,13 +72,13 @@ $('.brand-active').owlCarousel({
 
 $('select').niceSelect();
 
-$("#upload_link").on('click', function(e){
+$(".upload_link").on('click', function(e){
     e.preventDefault();
-    $("#upload:hidden").trigger('click');
+    $(".upload:hidden").trigger('click');
 });
 
-$('#filtersubmit').click(function() {
-    alert('Searching for '+$('#filter').val());
+$('.filtersubmit').click(function() {
+    alert('Searching for '+$('.filter').val());
 });
 
 })(jQuery);
