@@ -443,6 +443,7 @@ ul.minicart .cart-content a{
 }
 .product-img img{
   width: 100%;
+  height:440px;
 }
 .product-action{
   background: #fff none repeat scroll 0 0;
@@ -645,13 +646,26 @@ ul.minicart .cart-content a{
 }
 
 /* shop */
-.page-title-area.pb-100.pt-100{
+.page-title  {
   background-size: cover;
 }
-
+.page-title h2{
+  font-size: 20px;
+  background-color: #fff;
+}
+.page-title{
+  font-size: 14px;
+}
+.page-title a{
+  color: #000;
+}
+.page-title .active{
+  color: #b0b0b0;
+}
 .breadcrumb{
   list-style: none;
-  background: no-repeat;
+  background-color: #ddd;
+  background-repeat: no-repeat;
 }
 .shop-sidebar h3{
   font-size: 14px;
@@ -1075,4 +1089,20 @@ ul.minicart .cart-content a{
 }
 .bantuan:hover{
   opacity: 0.7;
+}
+.hubungikami-footer{
+  border-bottom: 1px solid #000;
+  padding-bottom:  30px;
+}
+.hubungikami-footer .btn{
+  margin-top: 40px;;
+  background-color: #000;
+  color: #ddd;
+  margin-right: 20px;
+}
+.hubungikami-konfirmasi label{
+  font-size: 30px;
+  box-sizing: border-box;
+  border: 4px solid #ddd;
+  padding: 10px;
 }
