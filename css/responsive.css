@@ -115,6 +115,34 @@
   color: #ddd;
   margin-right: 20px;
 }
+.profile-img {
+  border-radius: 50px;
+  margin-left: 40%;
+}
+.ubah {
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+}
+.profile-area .profile-name {
+  position: relative;
+  text-align: center;
+}
+.profile-sidebar{
+  padding-top: 20px;
+}
+.type1,
+.type2 {
+  font-size: 15px;
+}
+.content-kiriman {
+  text-align: center;
+  margin-top: 20px;
+}
+.offset-sm-3 {
+  margin-left: 30%;
+}
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {

@@ -1072,20 +1072,21 @@ ul.minicart .cart-content a {
     padding: 20px;
 }
 
-.profile-area img {
-    float: left;
+.profile-img {
+    /* float: left; */
+    margin-left: 33%;
     border-radius: 50px;
 }
 
 .profile-area .profile-name {
     position: relative;
-    padding-left: 110px;
+    text-align: center;
 }
 
 .ubah {
     font-size: 12px;
     position: relative;
-    padding-left: 110px;
+    text-align: center;
 }
 
 ul.profile {
