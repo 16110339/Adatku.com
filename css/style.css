@@ -408,11 +408,12 @@ ul.minicart .cart-content a {
 .total-price span {
     color: #fff;
 }
-
+.order-content .total-price{
+    width: 98%
+}
 .total-price {
     overflow: hidden;
     border-top: 1px solid #fff;
-    padding-top: 20px;
 }
 
 .header-right ul li .checkout-link a {
@@ -1073,8 +1074,6 @@ ul.minicart .cart-content a {
 }
 
 .profile-img {
-    /* float: left; */
-    margin-left: 33%;
     border-radius: 50px;
 }
 
@@ -1183,15 +1182,17 @@ ul.profile {
     height: 180px;
     border-bottom: 1px solid #ddd;
 }
-
+.order-text{
+    width: 75%
+}
 .btn-order {
     border-radius: 0;
-    margin-left: 15px;
     background: #ddd;
     color: #000;
     transition: 1s;
+    float: left;
+    width: 100%;
 }
-
 .btn-order:hover {
     background: #000;
     color: #fff;
@@ -1326,6 +1327,10 @@ ul.profile {
     left: -7rem;
     float: left;
 }
+.order-content .total-price span {
+    font-size: 16px;
+    color: #000;
+}
 
 .progress .one,
 .two,
@@ -1458,4 +1463,7 @@ opacity: 0.5;
 .page-item a:hover{
     background: #000;
     color: #fff;
+}
+.footer-link li {
+    margin-bottom: 10px;
 }

@@ -2,7 +2,6 @@
 .container{
   max-width: 1250px;
 }
-
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -11,6 +10,9 @@
   }
   .main-menu ul li {
     margin-right: 22px;
+}
+.content-kiriman.f-right {
+  float: none;
 }
 
 }
@@ -115,10 +117,6 @@
   color: #ddd;
   margin-right: 20px;
 }
-.profile-img {
-  border-radius: 50px;
-  margin-left: 40%;
-}
 .ubah {
   font-size: 12px;
   position: relative;
@@ -138,9 +136,6 @@
 .content-kiriman {
   text-align: center;
   margin-top: 20px;
-}
-.offset-sm-3 {
-  margin-left: 30%;
 }
 
 }
