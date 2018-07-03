@@ -331,12 +331,12 @@ label {
 }
 
 .header-right ul.minicart {
-    width: 380px;
+    width: 410px;
     background: #222222 none repeat scroll 0 0;
     position: absolute;
     top: 100%;
     right: 0;
-    padding: 50px;
+    padding: 40px;
     opacity: 0;
     visibility: hidden;
     transition: 1s;
@@ -364,6 +364,8 @@ label {
     float: left;
     padding-left: 15px;
     text-align: left;
+    width: 74%;
+    font-size: 14px;
 }
 
 ul.minicart .cart-content a {
@@ -378,6 +380,8 @@ ul.minicart .cart-content a {
 
 .cart-content h3 {
     color: #ddd;
+    width: 100%;
+    font-size: 14px;
 }
 
 .cart-price .new {
@@ -530,16 +534,36 @@ ul.minicart .cart-content a {
     right: 68px;
     bottom: 0;
 }
-
+.product-img-home{position: relative;}
+.product-img-home>span {
+    padding: 10px 25px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 0;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
 .product-img {
     position: relative;
 }
-
+.product-img-home img{
+    width: 100%;
+    height: 400px;
+}
 .product-img img {
     width: 100%;
     height: 440px;
 }
-
+h3#demo{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    background: #ddd;
+    color: #fff;
+    padding: 5px;
+}
 .product-action {
     background: #fff none repeat scroll 0 0;
     position: absolute;
@@ -586,6 +610,7 @@ ul.minicart .cart-content a {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    height: 60px;
 }
 
 .rating {
@@ -702,6 +727,7 @@ ul.minicart .cart-content a {
     float: left;
     height: 45px;
     width: 75%;
+    padding-left: 10px;
 }
 
 .subcribe-wrapper button {
@@ -960,6 +986,7 @@ ul.minicart .cart-content a {
 
 .product-large-thumb img {
     width: 100%;
+    /*  */
 }
 
 .product-large-thumb {
@@ -1482,4 +1509,27 @@ opacity: 0.5;
 .kritik{
 padding: 60px;
 
+}
+
+
+/* slider range */
+.ui-widget-header {
+    background: #000;
+}
+.filter-shop > p {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.filter-shop .btn-filter {
+    font-size: 14px;
+    border-radius: 0;
+    top: -36px;
+    background-color: #ddd;
+    color: #000;
+    position: relative;
+    transition: 1s;
+}
+.filter-shop .btn-filter:hover{
+    color: #fff;
+    background-color: #000;
 }
