@@ -628,3 +628,9 @@ input:focus {
     text-align: center;
     width: 100%;
 }
+input.input100 {
+  width: 100%;
+}
+input.input100.username {
+  width: 100%;
+}
