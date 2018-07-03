@@ -542,17 +542,18 @@ ul.minicart .cart-content a {
     text-transform: uppercase;
     top: 0;
     color: #fff;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-size: 18px;
+    font-weight: 600;
 }
 .product-img {
     position: relative;
 }
-.product-img-home img{
+.product-img-home a > img{
     width: 100%;
     height: 400px;
 }
-.product-img img {
+.product-img  img {
     width: 100%;
     height: 440px;
 }
@@ -598,6 +599,9 @@ h3#demo{
     right: 0;
     text-transform: uppercase;
     top: 0;
+    letter-spacing: 4px;
+    font-weight: 600;
+    color: #fff;
 }
 
 .product-content {
@@ -836,7 +840,7 @@ h3#demo{
     background-repeat: no-repeat;
 }
 
-.shop-sidebar h3 {
+.shop-sidebar > h3 {
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1533,11 +1537,72 @@ padding: 60px;
     margin-left: 20px;
 }
 
-.product-img img {
-    width: 100%;
-    height: 240px;
-}
 .blogs-pulau li a > img{
     width: 85px;
     height: 105px;
+}
+.blogs-img a > img {
+    width: 100%;
+    height: 240px;
+}
+.blogs-sidebar > h3 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.filter-shop .btn-filter {
+    position: relative;
+    top: -38px;
+    font-size: 14px;
+    background: #ddd;
+    color: #000;
+    border-radius: 0;
+    transition: 1s;
+}
+.filter-shop .btn-filter:hover {
+    background: #000;
+    color: #fff;
+}
+
+.tentangkami-img > img {
+    width: 100%;
+    height: 400px;
+}
+.tentangkami-content > h3 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.tentangkami-content > p {
+    font-size: 14px;
+    text-align: justify;
+}
+.page-title-tentangkami > h2{
+    font-size: 36px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.dev-img{
+    height: 350px;
+}
+.dev-img > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 50% 0% 50%;
+    padding: 30px;
+}
+.dev-img > h4{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px;    
+}
+.dev-img a > i {
+    font-size: 20px;
+    margin-left: 25px;
+    color: #373333;
 }
