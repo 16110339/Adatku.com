@@ -151,7 +151,7 @@ $('.filtersubmit').click(function() {
 });
 // slider price
 
-$( "#slider-range" ).slider({
+$( ".slider-range" ).slider({
     range: true,
     min: 0,
     max: 3000000,
@@ -160,8 +160,8 @@ $( "#slider-range" ).slider({
         $( "#amount" ).val( "Rp. " + ui.values[ 0 ] + " - Rp. " + ui.values[ 1 ]  );
     }
 });
-$( "#amount" ).val( "Rp. " + $( "#slider-range" ).slider( "values", 0 ) +
-    " - Rp. " + $( "#slider-range" ).slider( "values", 1 ) );
+$( "#amount" ).val( "Rp. " + $( ".slider-range" ).slider( "values", 0 ) +
+    " - Rp. " + $( ".slider-range" ).slider( "values", 1 ) );
 
 // zoom
 
