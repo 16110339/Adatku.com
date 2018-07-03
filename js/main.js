@@ -152,17 +152,4 @@ $('.filtersubmit').click(function() {
 
 
 
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
-
-    
-
->>>>>>> e5045f5967a79e200dc0e2c8e26873bd11757172
 })(jQuery);
