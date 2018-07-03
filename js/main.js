@@ -67,14 +67,14 @@
 
 
 
-
+//  main menu
 jQuery('#mobile-menu').meanmenu({
   meanMenuContainer: '.mobile-menu',
   meanScreenWidth: "767"
 });
 
 
-
+// slider
 $('.slider-active').owlCarousel({
     loop:true,
     nav:true,
@@ -136,7 +136,7 @@ $('.brand-active').owlCarousel({
     }
 })
 
-
+// select option
 $('select').niceSelect();
 
 $(".upload_link").on('click', function(e){
@@ -144,9 +144,28 @@ $(".upload_link").on('click', function(e){
     $(".upload:hidden").trigger('click');
 });
 
+
+// search
 $('.filtersubmit').click(function() {
     alert('Searching for '+$('.filter').val());
 });
+// slider price
+
+$( "#slider-range" ).slider({
+    range: true,
+    min: 0,
+    max: 3000000,
+    values: [ 0, 300000 ],
+    slide: function( event, ui ) {
+        $( "#amount" ).val( "Rp. " + ui.values[ 0 ] + " - Rp. " + ui.values[ 1 ]  );
+    }
+});
+$( "#amount" ).val( "Rp. " + $( "#slider-range" ).slider( "values", 0 ) +
+    " - Rp. " + $( "#slider-range" ).slider( "values", 1 ) );
+
+// zoom
+
+$(".zoom").elevateZoom({scrollZoom : true});
 
 
 

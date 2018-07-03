@@ -986,6 +986,7 @@ h3#demo{
 
 .product-large-thumb img {
     width: 100%;
+    /*  */
 }
 
 .product-large-thumb {
@@ -1505,4 +1506,27 @@ opacity: 0.5;
 .kritik{
 padding: 60px;
 
+}
+
+
+/* slider range */
+.ui-widget-header {
+    background: #000;
+}
+.filter-shop > p {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.filter-shop .btn-filter {
+    font-size: 14px;
+    border-radius: 0;
+    top: -36px;
+    background-color: #ddd;
+    color: #000;
+    position: relative;
+    transition: 1s;
+}
+.filter-shop .btn-filter:hover{
+    color: #fff;
+    background-color: #000;
 }
