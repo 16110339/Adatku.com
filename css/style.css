@@ -986,7 +986,6 @@ h3#demo{
 
 .product-large-thumb img {
     width: 100%;
-    /*  */
 }
 
 .product-large-thumb {
@@ -1503,30 +1502,58 @@ opacity: 0.5;
 .tentang {
     padding: 40px;
 }
+.tentang-kami{
+    padding-top: 100px;
+}
 .kritik{
 padding: 60px;
 
 }
+.blogs-img > img{
+    width: 30%;
+}
 
+.blogs-pulau li a{
+    color: #666;
+    font-size: 13px;
+    font-weight: 500px;
+}
 
-/* slider range */
-.ui-widget-header {
-    background: #000;
+.blogs-pulau li{
+    margin-bottom: 10px;
 }
-.filter-shop > p {
-    margin-top: 15px;
-    margin-bottom: 0;
+
+.blogs-pulau li:last-child{
+    margin-bottom: 20px;
 }
-.filter-shop .btn-filter {
-    font-size: 14px;
-    border-radius: 0;
-    top: -36px;
-    background-color: #ddd;
-    color: #000;
-    position: relative;
-    transition: 1s;
+
+.content-sidebar{
+    display: inline;
+    position: absolute;
+    margin-left: 20px;
 }
+<<<<<<< HEAD
+
+.product-img img {
+    width: 100%;
+    height: 240px;
+}
+.blogs-pulau li a > img{
+    width: 85px;
+    height: 105px;
+}
+=======
 .filter-shop .btn-filter:hover{
     color: #fff;
     background-color: #000;
 }
+
+.tentangkami-content > p {
+    font-size: 20px;
+    text-align: justify;
+}
+.tentangkami-img > img {
+    width: 100%;
+    height:400px;
+{
+>>>>>>> 84850b39c8a489f62e5b4187c833a03753e0f8d5

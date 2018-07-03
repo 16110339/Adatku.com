@@ -18,7 +18,49 @@
 					</span>
 				</div>
 
-				<form class="login100-form validate-form">
+
+					<form action="test.html" method="post">
+
+			            <div class="control-group">
+			                <label for="Register[Username]">Username</label>
+			                <input type="text" name="Register[Username]" id="RegisterUsername" required>
+			            </div>
+
+			            <div class="control-group">
+			                <label for="Register[Password]">Password</label>
+			                <input type="password" name="Register[Password]" id="RegisterPassword" required>
+			            </div>
+
+			            <div class="control-group">
+			                <label for="Register[PasswordConfirm]">Konfirmasi Password</label>
+			                <input type="password" name="Register[PasswordConfirm]" id="RegisterPasswordConfirm" required>
+			            </div>
+
+			            <div class="control-group">
+			                <label for="Register[Email]">Email</label>
+			                <input type="email" name="Register[Email]" id="RegisterEmail" required>
+			            </div>
+
+			            <div class="control-group">
+			                <label for="Register[Sex]">Jenis Kelamin</label>
+			                <select id="RegisterSex" name="Register[Sex]">
+			                    <option value="pria">Pria</option>
+			                    <option value="wanita">Wanita</option>
+			                </select>
+			            </div>
+
+			            <div class="control-group">
+			                <label for="Register[Birthday]">Tanggal Lahir</label>
+			                <input type="datetime-local" name="Register[Birthday]" id="RegisterBirthday]">
+			            </div>
+
+        				<fieldset id="FormAction">
+           					 <legend>Selesai mengisikan data?</legend>
+
+								<input type="reset" value="Hapus">
+					            <input type="submit" value="Daftar">									
+        				</fieldset>
+    				
 
 				</form>
 			</div>
